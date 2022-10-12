@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+html{
+    height: auto;
+    width: 100%;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+    width: 90%;
+    height: 400px;
+    background-color:hsl(217, 19%, 24%) ;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.advice-num{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.advice-num p{
+    margin-top: 20px;
+}
+.advice{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.divider{
+    margin: auto;
+}
+.desktop-divider{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
