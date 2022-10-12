@@ -4,7 +4,7 @@
     padding: 0;
     color: white;
 }
-html{
+html,body{
     height: auto;
     width: 100%;
 }
@@ -16,33 +16,83 @@ body{
     height: 400px;
     background-color:hsl(217, 19%, 24%) ;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 25%;
     border-radius: 10px;
-}
+   
+} 
 .advice-num{
     text-align: center;
     width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: hsl(150deg, 100%, 66%);
+    letter-spacing: 3px;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 40px;
     margin-bottom: 50px;
 }
 .advice-num p{
-    margin-top: 20px;
+    
 }
 .advice{
     text-align: center;
-    width: 70%;
-    margin: auto;
+    margin: 0px 30px 0px 30px;
     font-size: 30px;
+    padding-top: 30px;
     font-weight: 800;
-    margin-bottom: 30px;
+    height: 210px;
 }
 
 .divider{
     margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.mob-divider{
+    width: 90%;
 }
 .desktop-divider{
     display: none;
+}
+.dice{
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    border-radius: 50%;
+    position: relative;
+    background-color: hsl(150, 100%, 66%);
+}
+.dice:hover{
+    box-shadow: 5px 0px 40px hsl(150, 100%, 66%);
+}
+
+
+@media screen and (min-width: 800px) {
+    body{
+        text-align: center;
+    }
+    .container{
+        max-width: 45%;
+        margin-top: 12.5%;
+    }
+    .advice-num{
+
+    }
+    .advice{
+      
+    }
+    .desktop-divider{
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .mob-divider{
+       
+        display: none;
+    }
 }
 
 
