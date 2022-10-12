@@ -31,22 +31,24 @@ body{
     padding-top: 40px;
     margin-bottom: 50px;
 }
-.advice-num p{
-    
-}
 .advice{
     text-align: center;
-    margin: 0px 30px 0px 30px;
+    vertical-align: baseline;
+    margin: 70px 30px 0px 30px;
     font-size: 30px;
-    padding-top: 30px;
     font-weight: 800;
-    height: 210px;
+    
+}
+ p{
+    vertical-align: baseline;
+    height: 100%;
 }
 
 .divider{
     margin: auto;
+    height: 0;
     text-align: center;
-    margin-bottom: 35px;
+    margin-top: 80px;
 }
 .mob-divider{
     width: 90%;
@@ -77,20 +79,14 @@ body{
         max-width: 45%;
         margin-top: 12.5%;
     }
-    .advice-num{
-
-    }
-    .advice{
-      
-    }
     .desktop-divider{
         display: block;
         width: 80%;
+        padding-bottom: 10px;
         margin: auto;
         text-align: center;
     }
     .mob-divider{
-       
         display: none;
     }
 }
