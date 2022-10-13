@@ -1,6 +1,6 @@
-const dice = document.getElementsByClassName("dice");
+const dice = document.getElementsByClassName("dice")[0];
 
-const advice = document.querySelectorAll("blockquote");
+const advice = document.querySelector("blockquote");
 
 const id = document.getElementById('id');
 
@@ -11,10 +11,10 @@ dice.addEventListener("click", function(){
         url : "https://api.adviceslip.com/advice",
         dataType: "json",
         type: "get",
-        sucess: function (response){
+        success: function (response){
             api_response= response.slip;
-            id.innerHTML= response.slip;
-            advice.innerHTML= api_response.advice
+            id.innerHTML= api_response.id;
+            advice.innerHTML= api_response.advice;
         },
     });
 });
